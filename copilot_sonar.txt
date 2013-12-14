@@ -1,0 +1,32 @@
+#Document Commands
+!PRODUCT,VideoRay Sonar CoPilot User Manual
+!DOC_VERSION,Version: 1.00.00
+!OUT_DIR,copilot_sonar/
+!VALID_PAGES,
+!VALID_TEXT,c
+!TEMPLATE_COVER,required/htm/template_cover_print.htm,index_print.htm
+
+#Documentation Generation
+!INCLUDE,required/intro_.txt,1
+
+#**,Scope and Purpose
+#**,Targeted Audience
+*,General Overview,,overview.htm,,,
+#**,Requirements
+#**,Dynamic Positioning System
+#**,VideoRay CoPilot Core Features
+#***,Device Hardware Interface
+#***,Tracking Module
+*,Pilot Interface Overview,,interface_overview.htm,,,
+*,Position Information Display,,position_display.htm,,,
+#**,Navigation Information
+#**,Status Indicators
+#***,DP Status Indicator
+#***,Position Status Indicator
+#***,Joystick Indicator
+#***,Navigation Status Indicator
+*,Sonar Tracking Display,,sonar_tracking.htm,,,
+*,Water Column Display,,water_column.htm,,,
+#**,Water Column Zoom Control
+*,Range Toolbars,,range_toolbars.htm,,,
+*,Pilot Interface Toolbar,,pilot_int_toolbar.htm,,,
