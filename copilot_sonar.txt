@@ -1,10 +1,11 @@
 #Document Commands
-!PRODUCT,VideoRay Sonar CoPilot User Manual
-!DOC_VERSION,Version: 1.00.00
+!PRODUCT,CoPilot Sonar
+!VERSION,1.00.00
+!DOC_TYPE,Operator's Manual
 !OUT_DIR,copilot_sonar/
 !VALID_PAGES,
-!VALID_TEXT,c
-!TEMPLATE_COVER,required/htm/template_cover_print.htm,index_print.htm
+!VALID_TEXT,
+!TEMPLATE_COVER,required/htm/template_index_print.htm,index_print.htm
 
 #Documentation Generation
 !INCLUDE,required/intro_.txt,1
