@@ -1,8 +1,10 @@
 <h1>5 - Sonar Tracking Display</h1>
 
-<p>The Sonar Tracking display is focused on displaying the data captured by the sonar within the current field of view. The Sonar Tracking Display will present the user with possible targets, each depicted by a yellow box. To select and lock to a target, the user must simply click on the preferred target which, once lock is achieved, will be depicted by a green box. The ROV position, relative to the target, is estimated by VideoRay Sonar CoPilot's navigation system.</p>
+<p>The Sonar Tracking display is focused on displaying the data captured by the sonar within the current field of view. The Sonar Tracking Display allows the user to select possible targets for tracking. To select and lock to a target, the user should first select the anticipated target size and then simply click on the target.  Once lock is achieved, the target will be bounded by a green box. The ROV position, relative to the target, is estimated by VideoRay Sonar CoPilot's navigation system.</p>
 
-<p>To control the vehicle, the user may select one of two options from the Tracking Buttons located to the left of the Sonar Tracking Display.</p>
+<p><img src="../../required/images/icon_note.png"> The target size selector can be changed while the tracking is active, but the target size the system uses for isolating potential targets will not update until a new target selection is activated by clicking on the sonar image.</p>
+
+<p>To control the vehicle, the user may select one of two options from the two Tracking Buttons located to the left of the Sonar Tracking Display.</p>
 
 <center><p><img src="../images/Figure%2011%20-%20Tracking%20Buttons.png"></p>
 <p>Figure 11 - Tracking Buttons</p>
@@ -10,4 +12,6 @@
 
 <p>Selecting Stop (Hand Icon) will instruct the vehicle to stop and hover at its current location while remaining locked to a selected target at a range depicted using the Range Toolbar (See Section 7 - Range Toolbars). Selecting Release (Joystick Icon) will allow the vehicle to fly manually.</p>
 
-<p><img src="../../required/images/icon_note.gif"> When the DP is in standby, the only mode enabled is MANUAL and the rest of the buttons are disabled in the pilot interface.</p>
+<p>Selecting the Automatic Approach (Footprints Icon) will instruct the vehicle to close in on the target.  The vehicle will move to 25% of the current range from the target and hold position at this closer location.</p>
+
+<p><img src="../../required/images/icon_note.png"> When the DP is in standby, the only mode enabled is MANUAL and the rest of the buttons are disabled in the pilot interface.</p>

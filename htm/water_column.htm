@@ -1,24 +1,16 @@
 <h1>6 - Water Column Display</h1>
 
-<p>The water column display allows the user to view the area above and below the ROV in the water column. The ROV remains in the center of the display at all times.</p>
+<p>The Water Column display allows the operator to view the depth of the ROV in the water column. The ROV remains in the center of the display at all times.  Since there is no altitude sensor included as part of the CoPilot Sonar system, the height above seabed cannot be shown.</p>
 
-<p>Since there is no altitude sensor on the BV equipped VideoRay, the height above seabed cannot be shown.
-The sea surface icon is displayed in blue. The current depth is represented by an arrow the same color as the ROV. 
-
-<center><p><img src="../images/Figure%2012%20-%20Water%20Column%20Display.png"></p>
-<p>Figure 12 - Water Column Display</p>
+<center><p><img src="../images/Figure%2012%20-%20Water%20Column%20Display.png" width="80"></p>
+<p>Water Column Display</p>
 </center>
 
-<h2>6.1 Alarm Panel</h2>
+<p>The sea surface icon is displayed in blue. The current depth of the ROV is represented by a blue triangle.  When tracking is active, the objective depth is indicated by a red arrow.  The operator can click on the desired depth in the Water Column display and the ROV will be commanded to surface or dive to that depth.  The position of the red triangle will update to indicate the operator's selected depth.</p>
 
-<p>The alarm panel is displayed across the bottom of the pilot interface. It displays the current status of each software component that allows VideoRay Sonar CoPilot to run smoothly.</p>
+<p><img src="../../required/images/icon_note.png"> The Joystick indicator above the Water Column display will flash yellow if the depth control is not in the center or neutral position.  In this situation, the automatic depth control is disabled.  Returning the depth control to the center or neutral position will restore automatic depth control.</p>
 
-<p>If a software component fails, its name is illuminated in the alarm panel situated along the bottom of the pilot interface.</p>
+<p>The Depth Zoom selection above the Water Column display can be used to adjust the scale / range extents of the water column.</p>
 
-<p>In normal operation, the bar illustrated below should have no alarms illuminated; when a failure is detected the appropriate alarm will be indicated in RED.</p>
+<p><img src="../../copilot_sonar/images/depth_zoom.png"></p>
 
-<center><p><img src="../images/Figure%2013%20-%20Alarm%20Panel.png"></p>
-<p>Figure 13 - Alarm Panel</p>
-</center>
-
-<p><img src="../../required/images/icon_caution.png"> If any alarm is activated, the CoPilot system will automatically switch back to MANUAL, and display the warning "DP Standby"; the pilot must take immediate control of ROV from this point.</p>

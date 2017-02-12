@@ -1,0 +1,84 @@
+<h1>General Operations Guide</h1>
+
+<p>Operating CoPilot Sonar consists of the following general steps:
+
+<ol>
+  <li>Equipment set up and pre-dive inspection</li>
+  <li>Set tracking parameters</li>
+  <li>Manual operation of the ROV to search for sonar targets of interest</li>
+  <li>Manual evaluation and selection of a sonar target of interest for tracking</li>
+  <li>Autonomous control of ROV's position relative to the tracked sonar target</li>
+  <li>Autonomous approach toward the tracked sonar target or manual overrides of the stand-off distance or depth</li>
+  <li>Disengaging autonomous control</li>
+  <li>Repeat above 4 steps as desired</li>
+  <li>Equipment recovery and post-dive operations</li>
+  <li>Post project data management and archiving </li>
+  </ol>
+
+<h2>Operational Procedures and Tips</h2>
+
+<h3>Tracking Parameters</h3>
+
+<p>Several operating parameters can be adjusted to help find and select targets and maintain target lock.</p>
+
+<p>The sonar end range can be adjusted to search for targets that are further away (up to 100 m (30 feet)), or zoomed in to get a more detailed view of nearby targets.</p>
+
+<p><img src="../../copilot_sonar/images/sonar_end_range.png"></p>
+
+<p>The target size can be specified to optimize the tracking algorithm to better match the target of interest during selection and tracking.</p>
+
+<p><img src="../../copilot_sonar/images/target_size.png"></p>
+
+<p>The target type can be specified to optimize the tracking algorithm to better match the target of interest during selection and tracking.<p>
+
+<p><img src="../../copilot_sonar/images/button_target_type.png"></p>
+
+<p>The target types are:</p>
+
+<ul>
+  <li>Mid-water targets(Blue) - for targets that are mid water and where there is little background clutter from the bottom in the sonar image.</li>
+  <li>Bottom targets (Yellow) - for targets that are near or on the the bottom and where there is background clutter from the bottom in the sonar image.</li>
+  </ul>
+
+<h3>Engage Tracking and Autonomous Control</h3>
+
+<p>To engage tracking of a sonar target of interest, set the parameters to match the situation and click on the target on the sonar display.  Once tracking is engaged, a green box will display around the target.  The size of the green box is based upon the selected target size.  When tracked, the ROV will hold position relative to the target, or can be commanded to advance toward or retreat away form the target using autonomous control.</p>
+
+<h3>Disengage from a Tracked Target</h3>
+
+<p>To disengage from tracking a target, click on the Manual Control button, or click on the disable Override Mode communications button.</p>
+
+<p><img src="../../copilot_sonar/images/button_manual.png"></p>
+
+<h3>Approach a Tracked Target</h3>
+
+To approach a tracked target, click on the Approach Target button.  The ROV will approach to within 25% of the current range to target and hold position there.</p>
+
+<p><img src="../../copilot_sonar/images/button_approach_target.png"></p>
+
+<p><img src="../../required/images/icon_note.png">To stop at the current location while approaching the target under autonomous control, click on the Stop button.</p>
+
+<p><img src="../../copilot_sonar/images/button_halt.png"></p>
+
+<h3>Adjust Range to Target</h3>
+
+<p>To adjust the range from the ROV to a target, click on the Range Command to specify the desired horizontal offset from the sonar target of interest.</p>
+
+<p><img src="../../copilot_sonar/images/range_command.png"></p>
+
+<p><img src="../../required/images/icon_note.png">To stop at the current location while moving towards or away from the target under autonomous control, click on the Stop button.</p>
+
+<h3>Adjust Depth while Tracking</h3>
+ 
+You can click on the water Column display to specify the depth of the ROV.  A red triangle will indicate the objective depth and a blue triangle will indicate the depth of the ROV.
+
+<p><img src="../../required/images/icon_note.png">To stop at the current depth while under autonomous control, click on the Stop button.</p>
+
+<h3>Recording and Still Images</h3>
+
+<p>The record and snapshot buttons can be used to record sonar and video, or take a screenshot of the current window.</p>
+
+<p>Record <img src="../../copilot_sonar/images/button_record.png"></p>
+
+<p>Snapshot<img src="../../copilot_sonar/images/button_snapshot.png"></p>
+

@@ -1,0 +1,3 @@
+|name|description|
+|Range|Distance of the sonar extents or distance of the ROV to a sonar target|
+|Target|A sonar image that represents an object of interest.|
